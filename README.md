@@ -71,7 +71,7 @@ NEXT_PUBLIC_BACKEND_URL=tobemodified
 
 ## Start Both Projects Concurrently
 
-The project use `concurrently` package to start both frontend and backend using one command.
+This project use `concurrently` package to start both frontend and backend using one command.
 
 You can start both apps by the following command:
 ```bash
