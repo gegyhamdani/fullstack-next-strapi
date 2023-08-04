@@ -32,7 +32,7 @@ TRANSFER_TOKEN_SALT=tobemodified
 NEXT_PUBLIC_BACKEND_URL=tobemodified
 ```
 
-5. Start your project by running the following command:
+5. Start the project by running the following command:
 
 ```bash
   npm run dev
