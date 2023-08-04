@@ -14,7 +14,7 @@
   npm run setup
 ```
 
-3. Next, navigate to your `/backend` directory and set up your `.env` file. You can use the `.env.example` file as reference:
+3. Next, navigate to `/backend` directory and set up the `.env` file. You can use the `.env.example` file as reference:
 
 ```bash
 HOST=localhost
@@ -26,7 +26,7 @@ JWT_SECRET=tobemodified
 TRANSFER_TOKEN_SALT=tobemodified
 ```
 
-4. Next, navigate to your `/frontend` directory and set up your `.env` file. You can use the `.env.example` file as reference:
+4. Next, navigate to `/frontend` directory and set up the `.env` file. You can use the `.env.example` file as reference:
 
 ```bash
 NEXT_PUBLIC_BACKEND_URL=tobemodified
@@ -38,7 +38,7 @@ NEXT_PUBLIC_BACKEND_URL=tobemodified
   npm run dev
 ```
 
-You will be prompted to create your first admin user.
+You will be prompted to create admin user.
 
 ![admin-user](https://user-images.githubusercontent.com/6153188/231865420-5f03a90f-b893-4057-9634-9632920a7d97.gif)
 
@@ -48,7 +48,7 @@ There are some sample data that can be used.
 
 In the root project, find `fullstack-cms.tar.gz` file. It will be use to seed the data.
 
-1. Open terminal and make sure the terminal is still in `backend` folder.
+1. Open terminal and make sure the terminal is in `backend` folder.
 
 2. Run the following command to seed the data:
 
@@ -71,7 +71,12 @@ NEXT_PUBLIC_BACKEND_URL=tobemodified
 
 ## Start Both Projects Concurrently
 
-You can start both projects with one command using the `concurrently` package.
+The project use `concurrently` package to start both frontend and frontend using one command.
+
+You can start both apps by the following command:
+```bash
+  npm run dev
+```
 
 You can find the setting inside the `package.json` file inside the root folder.
 
@@ -91,9 +96,8 @@ You can find the setting inside the `package.json` file inside the root folder.
 }
 ```
 
-You can start both apps by running `npm run dev`.
 
-## Start Projects Individualy
+## Start Projects Individually
 
 ## Backend
 1. Open your terminal and direct it into backend folder
