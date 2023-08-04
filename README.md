@@ -45,11 +45,12 @@ You will be prompted to create your first admin user.
 ## Seeding The Data
 
 There are some sample data that can be used.
-In the root project, find `fullstack-cms.tar.gz` file. It will be use to seed our data.
+
+In the root project, find `fullstack-cms.tar.gz` file. It will be use to seed the data.
 
 1. Open terminal and make sure the terminal is still in `backend` folder.
 
-2. Run the following command to seed your data:
+2. Run the following command to seed the data:
 
 ```bash
   npm run strapi import -- -f ../fullstack-cms.tar.gz
