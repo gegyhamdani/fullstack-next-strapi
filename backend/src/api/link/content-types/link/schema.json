@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links",
+  "info": {
+    "singularName": "link",
+    "pluralName": "links",
+    "displayName": "Link",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "regex": "^https:\\/\\/.+"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "person": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::person.person",
+      "inversedBy": "links"
+    }
+  }
+}
