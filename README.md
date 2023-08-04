@@ -88,7 +88,7 @@ You can find the setting inside the `package.json` file inside the root folder.
     "setup:frontend": "cd frontend && npm install",
     "setup:backend": "cd backend && npm install",
     "setup": "npm install && npm run setup:frontend && npm run setup:backend",
-    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run develop develop\""
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run develop\""
   },
   "dependencies": {
     "concurrently": "^8.2.0"
